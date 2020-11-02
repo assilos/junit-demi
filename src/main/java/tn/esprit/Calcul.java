@@ -12,7 +12,7 @@ public class Calcul {
 			logger.info("Out calculerSom() : "+res);
 		}
 		catch(Exception e) {
-			logger.error("Erreur:: "+ e);
+			logger.error("Erreur: "+ e);
 		}
 		return res;
 	}
